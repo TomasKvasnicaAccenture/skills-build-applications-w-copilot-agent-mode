@@ -1,0 +1,104 @@
+
+.App {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  padding: 2rem 0;
+  border-radius: 0 0 20px 20px;
+}
+
+
+.App-link {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  color: #fff !important;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #ffb347 !important;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.table-dark th {
+  background: #007bff !important;
+  color: #fff;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #00aaff 100%);
+}
+
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background: #007bff;
+  color: #fff;
+}
+.modal-footer {
+  background: #f1f1f1;
+}
+
+/* Favicon and logo styles */
+.octofit-logo {
+  height: 40px;
+  margin-right: 10px;
+  float: left;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
